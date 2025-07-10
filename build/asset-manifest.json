@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.36380cca.css",
+    "main.js": "/static/js/main.d18e3c6c.js",
+    "static/media/p1.png": "/static/media/p1.35b96b322e8efa40c7f8.png",
+    "static/media/p2.png": "/static/media/p2.e678b63bb570d5f63314.png",
+    "static/media/p3.png": "/static/media/p3.550216e36474828ec7ae.png",
+    "static/media/conference.jpg": "/static/media/conference.7e0277f29bf0a8c25500.jpg",
+    "static/media/journal-publication.jpg": "/static/media/journal-publication.7388245e91c4235397ab.jpg",
+    "static/media/vignan.jpg": "/static/media/vignan.e72df92a9caec28d4c76.jpg",
+    "static/media/p4.png": "/static/media/p4.68f49ad5f57ce0547d90.png",
+    "static/media/vignanlogo.jpg": "/static/media/vignanlogo.e9df011718c76ab11aec.jpg",
+    "index.html": "/index.html",
+    "main.36380cca.css.map": "/static/css/main.36380cca.css.map",
+    "main.d18e3c6c.js.map": "/static/js/main.d18e3c6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36380cca.css",
+    "static/js/main.d18e3c6c.js"
+  ]
+}
