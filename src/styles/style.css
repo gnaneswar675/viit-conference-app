@@ -121,9 +121,9 @@ html {
 }
 
 .nav-section {
-  background: #fff;
+  background: #d5d553;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  padding: 35px 0 16px 0; /* Increased top padding for space above nav links */
+  padding: 22px 0 0 0; /* Increased top padding for space above nav links */
   border-bottom: 1px solid #ececec;
   margin-bottom: 0;
 }
@@ -133,7 +133,7 @@ html {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: #fff;
+  background: #c0e1f0;
   box-shadow: 0 2px 8px rgba(44,44,44,0.04);
   transition: box-shadow 0.2s;
 }
@@ -258,6 +258,7 @@ section.about-section {
 }
 
 section {
+  margin-top: 80px; /* Adjust this value as needed for your navbar height */
   margin-bottom: 40px; /* Added spacing after each main section */
 }
 
@@ -1033,6 +1034,7 @@ section {
   font-size: 1.05rem;
   text-align: center;
   animation: fadeIn 0.3s;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), padding 0.4s;
 }
 .faq-item.active .faq-answer {
   display: block;

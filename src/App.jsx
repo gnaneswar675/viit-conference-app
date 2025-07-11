@@ -25,11 +25,12 @@ const App = () => {
       <Navbar />
       <AboutSection />
       <SpecialThemeSection />
-      <KeyDatesSection />
+      
       <SubmissionSection />
       <PublicationsSection />
       <ExtendedPublicationSection />
       <TopicsSection />
+      <KeyDatesSection />
       <SpeakersSection />
       <RegistrationSection />
       <FAQSection />

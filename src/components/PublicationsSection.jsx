@@ -36,16 +36,34 @@ const PublicationsSection = () => {
           className={`pub-card pub-tab${activeTab === 'proceedings' ? ' active' : ''}`}
           data-tab="proceedings"
           onClick={() => setActiveTab('proceedings')}
+          style={{
+            background: activeTab === 'proceedings' ? '#ffd700' : '#fff',
+            color: activeTab === 'proceedings' ? '#222' : '#222',
+            border: '1px solid #e0e0e0',
+            cursor: 'pointer',
+            height: '64px', // Increased height to match journal publication button
+            display: 'flex',
+            alignItems: 'center'
+          }}
         >
-          <span className="pub-icon" style={{ fontSize: '2rem', color: activeTab === 'proceedings' ? '#fff' : '#222' }}>&#9906;</span>
+          <span className="pub-icon">&#9906;</span>
           Conference Proceedings
         </div>
         <div
           className={`pub-card pub-card-secondary pub-tab${activeTab === 'journal' ? ' active' : ''}`}
           data-tab="journal"
           onClick={() => setActiveTab('journal')}
+          style={{
+            background: activeTab === 'journal' ? '#ffd700' : '#fff',
+            color: activeTab === 'journal' ? '#222' : '#222',
+            border: '1px solid #e0e0e0',
+            cursor: 'pointer',
+            height: '64px', // Ensure both buttons have the same height
+            display: 'flex',
+            alignItems: 'center'
+          }}
         >
-          <span className="pub-icon" style={{ color: activeTab === 'journal' ? '#fff' : '#222' }}>&#128279;</span>
+          <span className="pub-icon">&#128279;</span>
           Journal publication of extended selective papers
         </div>
       </div>
@@ -104,6 +122,11 @@ const PublicationsSection = () => {
               rel="noreferrer"
               className="pub-paper-btn"
               onClick={() => setActiveTab('journal')}
+              style={{
+                background: '#fff',
+                color: '#222',
+                borderColor: '#e0e0e0'
+              }}
             >
               {buttonLabel}
             </a>
