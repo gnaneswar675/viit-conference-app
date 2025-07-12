@@ -17,7 +17,8 @@ const ContactSection = () => {
     e.preventDefault();
     setStatus('Sending...');
     try {
-      const res = await fetch('/api/contact', {
+      const backendUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000';
+      const res = await fetch(`${backendUrl}/api/contact`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form)
